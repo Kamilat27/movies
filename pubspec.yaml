@@ -1,0 +1,74 @@
+name: final_project
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.13.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  mask_text_input_formatter: ^2.9.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.7
+  easy_localization: ^3.0.7+1
+  shared_preferences: ^2.5.3
+  lottie: ^3.3.1
+  dio: ^5.8.0+1
+  retrofit: ^4.4.0
+  json_annotation: ^4.9.0
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  retrofit_generator: '>=8.0.0 <10.0.0' # for Dart 3.3 use ^9.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.8.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+#    background_color: "#hexcode"
+#    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+
+
+
+
+flutter:
+  assets:
+    - assets/
+    - assets/translations/
+    - assets/animations/
+
+
+
+  uses-material-design: true
