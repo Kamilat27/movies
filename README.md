@@ -17,3 +17,15 @@ Movies is a cross-platform mobile app that displays the latest news and trending
  - SharedPreferences for local user session storage
  - State management (BLoC, Provider, etc.)
  - Lottie animations
+<img src="https://github.com/user-attachments/assets/2aa9e43f-26f2-423b-847d-1cfb9a7c8cbc" width="200">
+<img src="https://github.com/user-attachments/assets/54ab13e7-78a4-417d-910b-71e44c967cad" width="200">
+<img src="https://github.com/user-attachments/assets/aee2e796-d3f9-4fd0-a583-97a3317c598b" width="200">
+<img src="https://github.com/user-attachments/assets/a65d76e3-a4c7-46af-804a-5713e7696208" width="200">
+<img src="https://github.com/user-attachments/assets/380d77a9-ffb3-4b2e-a936-aa181be6aa9b" width="200">
+<img src="https://github.com/user-attachments/assets/f720d6b6-daec-4281-bedc-5016607c858d" width="200">
+
+
+
+
+
+
