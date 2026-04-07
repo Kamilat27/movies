@@ -2,7 +2,7 @@
 Movies is a cross-platform mobile app that displays the latest news and trending movies using data from the IMDb API. The app supports user registration and login, profile management, and smooth animations for enhanced user experience.
 
 
-## Key Feutures
+## Key Features
  - User authentication with registration and login
  - Persistent login using SharedPreferences
  - Home feed with trending movies and updates
